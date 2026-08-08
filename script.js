@@ -1,16 +1,13 @@
-// Aguarda o carregamento completo do DOM
+// Aguarda o carregamento do DOM para garantir que os elementos existam
 document.addEventListener('DOMContentLoaded', () => {
   const likeBtn = document.getElementById('likeBtn');
   const likeCountSpan = document.getElementById('likeCount');
 
   let count = 0;
 
-  // Adiciona o evento de clique ao botão de curtir
+  // Evento de clique para incrementar a contagem
   likeBtn.addEventListener('click', () => {
     count++;
     likeCountSpan.textContent = count;
-    
-    // Pequena animação visual de confirmação no console
-    console.log(`Post curtido! Total de curtidas: ${count}`);
   });
 });
