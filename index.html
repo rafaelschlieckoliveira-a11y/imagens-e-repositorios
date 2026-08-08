@@ -17,6 +17,7 @@
         src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
         alt="Pessoa digitando em um notebook com linhas de código exibidas na tela, representando o ambiente de trabalho de um desenvolvedor web" 
         class="post-image"
+        loading="lazy"
       >
 
       <div class="post-content">
@@ -24,19 +25,12 @@
         <p>A inclusão de elementos visuais acessíveis e interações dinâmicas torna o conteúdo mais envolvente para todos os usuários.</p>
       </div>
 
-      <button id="likeBtn" class="btn-like">❤️ Curtir (<span id="likeCount">0</span>)</button>
+      <button id="likeBtn" class="btn-like" aria-label="Curtir este post">
+        ❤️ Curtir (<span id="likeCount">0</span>)
+      </button>
     </article>
   </main>
 
   <script src="script.js"></script>
 </body>
 </html>
-<img 
-  src="..." 
-  alt="..." 
-  <button id="likeBtn" class="btn-like" aria-label="Curtir o post">
-  ❤️ Curtir (<span id="likeCount">0</span>)
-</button>
-  class="post-image"
-  loading="lazy"
->
