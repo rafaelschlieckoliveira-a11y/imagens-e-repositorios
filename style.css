@@ -1,4 +1,4 @@
-/* Configurações Globais */
+/* Resets e estilos globais */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-/* Container do Post */
+/* Container principal do post */
 .container {
   max-width: 700px;
   margin: 0 auto;
@@ -35,7 +35,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* Estilização Responsiva da Imagem */
+/* Regras de responsividade para a imagem */
 .post-image {
   max-width: 100%;
   height: auto;
@@ -50,7 +50,7 @@ body {
   font-size: 1.1rem;
 }
 
-/* Botão de Interação */
+/* Estilo do botão interativo */
 .btn-like {
   background-color: #e63946;
   color: #ffffff;
@@ -69,7 +69,4 @@ body {
 
 .btn-like:active {
   transform: scale(0.98);
-}.post-image {
-  max-width: 100%;
-  height: auto;
 }
