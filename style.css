@@ -1,7 +1,72 @@
+/* Configurações Globais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333333;
+  padding: 20px;
+}
+
+/* Container do Post */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.post-title {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.post-meta {
+  font-size: 0.9rem;
+  color: #666666;
+  margin-bottom: 20px;
+}
+
+/* Estilização Responsiva da Imagem */
 .post-image {
-  max-width: 100%;    /* Impede que a imagem ultrapasse a largura do contêiner */
-  height: auto;       /* Mantém as proporções originais da imagem */
-  display: block;     /* Evita espaços indesejados abaixo da imagem */
-  margin: 20px auto;  /* Centraliza a imagem e adiciona espaçamento vertical */
-  border-radius: 8px; /* Opcional: cantos arredondados para um visual moderno */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-content p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+/* Botão de Interação */
+.btn-like {
+  background-color: #e63946;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  margin-top: 15px;
+}
+
+.btn-like:hover {
+  background-color: #d62828;
+}
+
+.btn-like:active {
+  transform: scale(0.98);
 }
