@@ -4,8 +4,9 @@ Este repositório contém a solução do desafio de desenvolvimento web focado e
 
 ## 🚀 Funcionalidades e Aprendizados
 
-- **HTML5 Acessível**: Inclusão de imagem com descrição detalhada via atributo `alt`, conectando a mensagem visual ao texto do post.
-- **CSS3 Responsivo**: Estilização ajustada para que a imagem seja proporcional e não prejudique a leitura em diferentes dispositivos.
-- **JavaScript Interativo**: Implementação de contador de curtidas em tempo real.
+- **HTML5 Acessível**: Uso de `<article>`, `<main>` e `<img>` com descrição em `alt` e atributo `loading="lazy"`.
+- **Acessibilidade**: Atributo `aria-label` adicionado ao botão de interatividade para leitores de tela.
+- **CSS3 Responsivo**: Imagem adaptável com `max-width: 100%` e `height: auto`, mantendo as proporções ideais em qualquer tela.
+- **JavaScript Interativo**: Manipulação simples do DOM com contador de curtidas.
 
 ## 📂 Estrutura do Projeto
