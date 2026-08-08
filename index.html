@@ -1,11 +1,33 @@
-<article class="post">
-  <h2>Título do Seu Post Aqui</h2>
-  
-  <img 
-    src="caminho-da-sua-imagem.jpg" 
-    alt="Descrição detalhada da imagem conectada ao tema do post" 
-    class="post-image"
-  >
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post do Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <p>Texto do seu post aqui...</p>
-</article>
+  <main class="container">
+    <article class="post">
+      <h1 class="post-title">Dominando o Desenvolvimento Web</h1>
+      <p class="post-meta">Publicado em <time datetime="2026-08-08">08 de Agosto de 2026</time></p>
+
+      <img 
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" 
+        alt="Pessoa digitando em um notebook com linhas de código exibidas na tela, representando o ambiente de trabalho de um desenvolvedor web" 
+        class="post-image"
+      >
+
+      <div class="post-content">
+        <p>Aprender HTML, CSS e JavaScript é o primeiro passo para construir experiências incríveis na web. Cada tecnologia desempenha um papel fundamental na estrutura, estilo e interatividade de uma página.</p>
+        <p>A inclusão de elementos visuais acessíveis e interações dinâmicas torna o conteúdo mais envolvente para todos os usuários.</p>
+      </div>
+
+      <button id="likeBtn" class="btn-like">❤️ Curtir (<span id="likeCount">0</span>)</button>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
