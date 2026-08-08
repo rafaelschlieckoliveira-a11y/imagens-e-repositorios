@@ -11,3 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
     likeCountSpan.textContent = count;
   });
 });
+<script src="script.js"></script>
