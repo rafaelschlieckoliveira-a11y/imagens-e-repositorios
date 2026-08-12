@@ -8,5 +8,3 @@ Este repositório contém a solução do desafio de desenvolvimento web focado e
 - **Acessibilidade**: Atributo `aria-label` adicionado ao botão de interatividade para leitores de tela.
 - **CSS3 Responsivo**: Imagem adaptável com `max-width: 100%` e `height: auto`, mantendo as proporções ideais em qualquer tela.
 - **JavaScript Interativo**: Manipulação simples do DOM com contador de curtidas.
-
-## 📂 Estrutura do Projeto
